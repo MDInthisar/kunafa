@@ -39,9 +39,9 @@ gsap.from('.left .founders', {
 
 
 // basic
-let typed = new Typed('.page1 .head', {
-    strings: ["Kunafa House is an exclusive Kunafa Dessert Brand, having one-of a kind creative variety of Kunafas."],
-    typeSpeed: 50,
-    backSpeed: 50,
-    loop: true
-});
+  let typed = new Typed('.page1 .head', {
+                strings: ["Kunafa House is an exclusive Kunafa Dessert Brand, having one-of a kind creative variety of Kunafas."],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true
+            });
