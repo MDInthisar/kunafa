@@ -15,7 +15,7 @@ tl.from('.navcontent', {
 gsap.from(".contents p", {
     scrollTrigger: {
         trigger: ".contents",
-        start: "top 0%",
+        start: "top 50%",
         end: "bottom 20%",
         markers: true,
         toggleActions: "play none none reverse reverse", // Play on enter, reverse on leave, play on enter back, reverse on leave back
