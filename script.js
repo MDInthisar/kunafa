@@ -38,7 +38,7 @@
 // });
 
 gsap.to('.kcards .imgcards', {
-  y: 20,
+  x: 20,
   duration: 1,
   delay: 1,
   yoyo: true,
@@ -53,3 +53,12 @@ gsap.to('.kcards .imgcards', {
                 backSpeed: 50,
                 loop: true
             });
+
+window.addEventListener('scroll', function() {
+  const nav = document.querySelector('.nav');
+  if (window.scrollY > 50) { // You can adjust the value to when you want the effect to kick in
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+});
