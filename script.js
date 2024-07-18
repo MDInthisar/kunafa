@@ -1,41 +1,41 @@
-let tl = gsap.timeline();
+// let tl = gsap.timeline();
 
-tl.from('.nav .navlogo', {
-    x: -500,
-    duration: 2,
-    // delay:1,
-});
+// tl.from('.nav .navlogo', {
+//     x: -500,
+//     duration: 2,
+//     // delay:1,
+// });
 
-tl.from('.navcontent', {
-    x: 1000,
-    duration: 2,
-});
+// tl.from('.navcontent', {
+//     x: 1000,
+//     duration: 2,
+// });
 
 
-gsap.from(".contents p", {
-    scrollTrigger: {
-        trigger: ".contents",
-        start: "top 50%",
-        end: "bottom 20%",
-        markers: true,
-        toggleActions: "play none none reverse reverse", // Play on enter, reverse on leave, play on enter back, reverse on leave back
-    },
-    opacity: 0,
-    y: 50,
-    duration: 1,
-    stagger: 0.3,
-});
+// gsap.from(".contents p", {
+//     scrollTrigger: {
+//         trigger: ".contents",
+//         start: "top 80%",
+//         end: "bottom 20%",
+//         markers: true,
+//         toggleActions: "play none none reverse reverse", // Play on enter, reverse on leave, play on enter back, reverse on leave back
+//     },
+//     opacity: 0,
+//     y: 50,
+//     duration: 1,
+//     stagger: 0.3,
+// });
 
-gsap.from('.left .founders', {
-    scrollTrigger: {
-        trigger: ".left .founders",
-        start: 'top 50%',
-        // markers: true,
-        toggleActions: "play none none reverse reverse", // Play on enter, reverse on leave, play on enter back, reverse on leave back
-    },
-    x: -500,
-    duration: 1,
-});
+// gsap.from('.left .founders', {
+//     scrollTrigger: {
+//         trigger: ".left .founders",
+//         start: 'top 50%',
+//         // markers: true,
+//         toggleActions: "play none none reverse reverse", // Play on enter, reverse on leave, play on enter back, reverse on leave back
+//     },
+//     x: -500,
+//     duration: 1,
+// });
 
 
 // basic
