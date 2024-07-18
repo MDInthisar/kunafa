@@ -219,6 +219,7 @@
 
 
 /* page4 */
+/* page4 */
 .page4 {
   display: flex;
   align-items: center;
@@ -226,38 +227,68 @@
   width: 100vw;
   min-height: 10vh;
   background-color: #fff;
+  padding: 5vw 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .page4 .left {
   width: 35%;
   height: 100%;
   margin: 4vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  border-radius: 2vw;
+}
+
+.page4 .left:hover {
+  transform: scale(1.05);
 }
 
 .page4 .left img {
   border-radius: 2vw;
+  width: 100%;
+  height: auto;
 }
 
 .page4 .content {
-  width: 65%;
-  height: 100%;
+    width: 50%;
+    height: 100%;
+    padding: 2vw 5vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1vw;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease-in-out;
 }
 
 .page4 .content h1 {
   font-size: 3vw;
   color: #ffc400;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1vw;
+  transition: color 0.3s ease-in-out;
+}
+
+.page4 .content h1:hover {
+  color: #ffa500;
 }
 
 .page4 .content p {
   font-size: 1.5vw;
   margin-top: 2vw;
   margin-right: 5vw;
-  color: #ffc400;
+  color: #000000;
+  line-height: 1.5;
 }
 
 .page4 .content p span {
   font-size: 2vw;
   color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.page4 .content p:hover span {
+  color: #333;
 }
 
 /* Media Queries */
@@ -277,6 +308,7 @@
   .page4 .content {
     width: 100%;
     text-align: center;
+    margin-top: 2vw;
   }
 
   .page4 .content h1 {
@@ -332,16 +364,14 @@
   }
 }
 
-.page5 {
-  width: 100vw;
-  min-height: 100vh;
-  text-align: center;
-  background: linear-gradient(#ffd643, #ffc400);
+.page5{
+  width: 100vw;height: 100vh;background-color:#ffa500;
 }
 
-.page5 h1 {
-  font-size: 3vw;
-
+.page5 h1{
+  text-align: center;
+  font: 3vw;
+  
 }
 
 .wrapper {
