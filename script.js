@@ -37,6 +37,14 @@
 //     duration: 1,
 // });
 
+gsap.to('.kcards .imgcards', {
+  y: 20,
+  duration: 1,
+  delay: 1,
+  yoyo: true,
+  repeat: -1  // Infinite loop
+});
+
 
 // basic
   let typed = new Typed('.page1 .head', {
