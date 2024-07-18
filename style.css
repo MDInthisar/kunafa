@@ -364,15 +364,142 @@
   }
 }
 
-.page5{
-  width: 100vw;height: 100vh;background-color:#ffa500;
+.page5 {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('https://api.vip.foodnetwork.ca/wp-content/uploads/2024/03/Knafeh-fnc-article-feature.jpg?w=3840&quality=75');
+  background-size: cover;
+  background-position: center;
+  padding: 2vw;
+  color: white; /* Ensure text is readable on the background image */
 }
 
-.page5 h1{
+.page5 h1 {
   text-align: center;
-  font: 3vw;
-  
+  font-size: 3vw;
+  margin-bottom: 2vw;
 }
+
+/* idea1 and idea2 */
+.page5 .idea1, .page5 .idea2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  width: 100%;
+  margin: 2vw 0;
+  background: rgba(0, 0, 0, 0.5); /* Optional: Add background color with opacity for better readability */
+  padding: 2vw; /* Add padding to ensure text is not directly on the edges */
+  border-radius: 10px; /* Optional: Add border-radius for a better look */
+}
+
+.idea1 p, .idea2 p {
+  width: 70%;
+  font-size: 1.5vw;
+}
+
+.idea1 .imgcards, .idea2 .imgcards {
+  width: 30%;
+}
+
+.idea1 .imgcards .imagecard, .idea2 .imgcards .imagecard {
+  width: 15vw;
+  height: 15vw;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.idea1 .imgcards .imagecard img, .idea2 .imgcards .imagecard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .page5 h1 {
+    font-size: 4vw;
+  }
+
+  .page5 .idea1, .page5 .idea2 {
+    flex-direction: column;
+    padding: 0 10vw;
+    text-align: center;
+  }
+
+  .idea1 p, .idea2 p {
+    width: 100%;
+    font-size: 2vw;
+  }
+
+  .idea1 .imgcards, .idea2 .imgcards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0;
+  }
+
+  .idea1 .imgcards .imagecard, .idea2 .imgcards .imagecard {
+    width: 30vw;
+    height: 30vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .page5 h1 {
+    font-size: 5vw;
+  }
+
+  .page5 .idea1, .page5 .idea2 {
+    padding: 0 5vw;
+  }
+
+  .idea1 p, .idea2 p {
+    font-size: 3vw;
+  }
+
+  .idea1 .imgcards .imagecard, .idea2 .imgcards .imagecard {
+    width: 40vw;
+    height: 40vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .page5 h1 {
+    font-size: 6vw;
+  }
+
+  .page5 .idea1, .page5 .idea2 {
+    padding: 0 2vw;
+  }
+
+  .idea1 p, .idea2 p {
+    font-size: 4vw;
+  }
+
+  .idea1 .imgcards .imagecard, .idea2 .imgcards .imagecard {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+.page6{
+  width: 100vw;min-height: 100vh;
+  background-color: #ff9c9c;
+}
+
+.page6 h1 {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+.page6 .cardscontent{
+  display: flex;align-items: center;justify-content: center;flex-direction: column;
+  width: 100%;height: 100%;
+}
+
+
 
 .wrapper {
   width: 100%;
