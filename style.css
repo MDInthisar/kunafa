@@ -5,6 +5,33 @@
   font-weight: lighter;
 }
 
+/* Style the vertical and horizontal scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Style the vertical and horizontal scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #ffa500;
+  border-radius: 10px;
+}
+
+/* Style the vertical and horizontal scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #755252;
+}
+
+/* Set the width of the vertical scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Set the height of the horizontal scrollbar */
+::-webkit-scrollbar {
+  height: 0px;
+}
+
+
 .nav {
 width: 100vw;
     background-color: transparent;
@@ -494,7 +521,7 @@ width: 100vw;
   }
 
   .page5 .idea1, .page5 .idea2 {
-    padding: 0 2vw;
+    padding: 5vw 6vw;
   }
 
   .idea1 p, .idea2 p {
@@ -582,6 +609,31 @@ width: 100vw;
      1px  1px 0 #000000; /* Border color */
 }
 
+.page8{
+  width: 100vw;
+  min-height: 10vh;
+  background-image: url('./img/p8.png');
+  background-position: center;
+}
+
+.page8 h1 {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+  padding: 2vw;
+  font-family: cursive;
+  color: rgb(104, 77, 77);
+}
+
+.page8 .cards{
+  display: flex;align-items: center;justify-content: center;padding: 0 15vw;
+}
+
+.page8 .cards p{
+  font-size: 2vw;
+  font-weight: 600;
+  color: #ffa500;
+}
 
 
 /* Footer styles */
