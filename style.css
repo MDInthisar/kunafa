@@ -228,8 +228,9 @@ width: 100vw;
 
 .page3{
   width: 100vw;height: 70vh;
-  background-image: url('./img/dubai.webp');
+  background-image: url('./img/d1.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -528,7 +529,6 @@ width: 100vw;
     justify-content: space-evenly;
     margin: 0vw 10vw;
     gap: 4vw;
-    padding: 3vw 0;
     }
 
 .kcards .imgcards{
